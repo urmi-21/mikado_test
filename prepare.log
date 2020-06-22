@@ -1,0 +1,97 @@
+2020-06-22 17:31:57,870 - prepare - prepare.py:177 - INFO - setup - MainProcess - Command line: /pylon5/mc5pl7p/usingh/lib/myAnacondaInstallation/envs/mikado2/bin/mikado prepare --json-conf mkconf.yaml -m 100 -p 25 --seed 1234 -o m5.gtf -of m5.fasta
+2020-06-22 17:31:57,870 - prepare - prepare.py:178 - INFO - setup - MainProcess - Random seed: 1234
+2020-06-22 17:31:57,909 - prepare - prepare.py:624 - INFO - prepare - MainProcess - Output dir: .. Output GTF: ./m5.gtf. Output Fasta: ./m5.fasta
+2020-06-22 17:31:57,909 - prepare - prepare.py:625 - INFO - prepare - MainProcess - Loading reference file
+2020-06-22 17:31:57,911 - prepare - prepare.py:627 - INFO - prepare - MainProcess - Finished loading genome file
+2020-06-22 17:31:57,911 - prepare - prepare.py:628 - INFO - prepare - MainProcess - Started loading exon lines
+2020-06-22 17:31:57,911 - prepare - prepare.py:448 - INFO - _load_exon_lines_multi - MainProcess - Starting to load lines from 5 files (using 5 processes)
+2020-06-22 17:32:01,740 - AnnotationParser-5 - annotation_parser.py:662 - INFO - load_from_gtf - AnnotationParser-5 - Starting to load ./mikado_shelf_00004.db
+2020-06-22 17:32:01,829 - AnnotationParser-2 - annotation_parser.py:662 - INFO - load_from_gtf - AnnotationParser-2 - Starting to load ./mikado_shelf_00000.db
+2020-06-22 17:32:01,829 - AnnotationParser-1 - annotation_parser.py:662 - INFO - load_from_gtf - AnnotationParser-1 - Starting to load ./mikado_shelf_00003.db
+2020-06-22 17:32:01,842 - AnnotationParser-3 - annotation_parser.py:662 - INFO - load_from_gtf - AnnotationParser-3 - Starting to load ./mikado_shelf_00001.db
+2020-06-22 17:32:01,847 - AnnotationParser-4 - annotation_parser.py:662 - INFO - load_from_gtf - AnnotationParser-4 - Starting to load ./mikado_shelf_00002.db
+2020-06-22 17:32:02,896 - AnnotationParser-2 - annotation_parser.py:336 - WARNING - load_into_storage - AnnotationParser-2 - Max intron: 1000000
+2020-06-22 17:32:02,897 - AnnotationParser-2 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-2 - Discarding S1_STRG.3.1 because its size (95) is under the minimum of 100
+2020-06-22 17:32:02,897 - AnnotationParser-2 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-2 - Discarding S1_STRG.4.1 because its size (90) is under the minimum of 100
+2020-06-22 17:32:02,897 - AnnotationParser-2 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-2 - Discarding S1_STRG.5.1 because its size (83) is under the minimum of 100
+2020-06-22 17:32:02,900 - AnnotationParser-2 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-2 - Discarding S1_STRG.36.19 because its size (65) is under the minimum of 100
+2020-06-22 17:32:02,900 - AnnotationParser-2 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-2 - Discarding S1_STRG.38.7 because its size (59) is under the minimum of 100
+2020-06-22 17:32:02,901 - AnnotationParser-2 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-2 - Discarding S1_STRG.41.1 because its size (68) is under the minimum of 100
+2020-06-22 17:32:02,901 - AnnotationParser-2 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-2 - Discarding S1_STRG.53.5 because its size (68) is under the minimum of 100
+2020-06-22 17:32:02,902 - AnnotationParser-2 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-2 - Discarding S1_STRG.67.1 because its size (89) is under the minimum of 100
+2020-06-22 17:32:02,908 - AnnotationParser-2 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-2 - Discarding S1_STRG.163.1 because its size (70) is under the minimum of 100
+2020-06-22 17:32:02,911 - AnnotationParser-2 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-2 - Discarding S1_STRG.206.1 because its size (89) is under the minimum of 100
+2020-06-22 17:32:02,911 - AnnotationParser-2 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-2 - Discarding S1_STRG.223.1 because its size (78) is under the minimum of 100
+2020-06-22 17:32:02,921 - AnnotationParser-2 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-2 - Discarding S1_STRG.265.1 because its size (65) is under the minimum of 100
+2020-06-22 17:32:02,922 - AnnotationParser-2 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-2 - Discarding S1_STRG.273.1 because its size (67) is under the minimum of 100
+2020-06-22 17:32:03,080 - AnnotationParser-4 - annotation_parser.py:336 - WARNING - load_into_storage - AnnotationParser-4 - Max intron: 1000000
+2020-06-22 17:32:03,081 - AnnotationParser-4 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-4 - Discarding S3_STRG.1.5 because its size (68) is under the minimum of 100
+2020-06-22 17:32:03,081 - AnnotationParser-4 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-4 - Discarding S3_STRG.11.3 because its size (68) is under the minimum of 100
+2020-06-22 17:32:03,082 - AnnotationParser-4 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-4 - Discarding S3_STRG.22.1 because its size (89) is under the minimum of 100
+2020-06-22 17:32:03,088 - AnnotationParser-4 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-4 - Discarding S3_STRG.122.1 because its size (95) is under the minimum of 100
+2020-06-22 17:32:03,089 - AnnotationParser-4 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-4 - Discarding S3_STRG.123.1 because its size (90) is under the minimum of 100
+2020-06-22 17:32:03,089 - AnnotationParser-4 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-4 - Discarding S3_STRG.124.1 because its size (83) is under the minimum of 100
+2020-06-22 17:32:03,089 - AnnotationParser-4 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-4 - Discarding S3_STRG.138.1 because its size (61) is under the minimum of 100
+2020-06-22 17:32:03,090 - AnnotationParser-4 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-4 - Discarding S3_STRG.140.21 because its size (65) is under the minimum of 100
+2020-06-22 17:32:03,090 - AnnotationParser-4 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-4 - Discarding S3_STRG.144.5 because its size (59) is under the minimum of 100
+2020-06-22 17:32:03,095 - AnnotationParser-4 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-4 - Discarding S3_STRG.223.1 because its size (78) is under the minimum of 100
+2020-06-22 17:32:03,096 - AnnotationParser-4 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-4 - Discarding S3_STRG.232.1 because its size (86) is under the minimum of 100
+2020-06-22 17:32:03,105 - AnnotationParser-4 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-4 - Discarding S3_STRG.270.1 because its size (61) is under the minimum of 100
+2020-06-22 17:32:03,105 - AnnotationParser-4 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-4 - Discarding S3_STRG.275.1 because its size (65) is under the minimum of 100
+2020-06-22 17:32:03,106 - AnnotationParser-4 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-4 - Discarding S3_STRG.281.1 because its size (67) is under the minimum of 100
+2020-06-22 17:32:03,106 - AnnotationParser-4 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-4 - Discarding S3_STRG.292.1 because its size (68) is under the minimum of 100
+2020-06-22 17:32:03,116 - AnnotationParser-5 - annotation_parser.py:336 - WARNING - load_into_storage - AnnotationParser-5 - Max intron: 1000000
+2020-06-22 17:32:03,119 - AnnotationParser-5 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-5 - Discarding S5_STRG.36.1 because its size (61) is under the minimum of 100
+2020-06-22 17:32:03,120 - AnnotationParser-5 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-5 - Discarding S5_STRG.57.1 because its size (70) is under the minimum of 100
+2020-06-22 17:32:03,127 - AnnotationParser-3 - annotation_parser.py:336 - WARNING - load_into_storage - AnnotationParser-3 - Max intron: 1000000
+2020-06-22 17:32:03,124 - AnnotationParser-5 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-5 - Discarding S5_STRG.108.1 because its size (89) is under the minimum of 100
+2020-06-22 17:32:03,128 - AnnotationParser-3 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-3 - Discarding S2_STRG.2.1 because its size (68) is under the minimum of 100
+2020-06-22 17:32:03,125 - AnnotationParser-5 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-5 - Discarding S5_STRG.127.1 because its size (78) is under the minimum of 100
+2020-06-22 17:32:03,129 - AnnotationParser-3 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-3 - Discarding S2_STRG.13.4 because its size (68) is under the minimum of 100
+2020-06-22 17:32:03,127 - AnnotationParser-5 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-5 - Discarding S5_STRG.162.3 because its size (68) is under the minimum of 100
+2020-06-22 17:32:03,136 - AnnotationParser-3 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-3 - Discarding S2_STRG.117.1 because its size (89) is under the minimum of 100
+2020-06-22 17:32:03,127 - AnnotationParser-5 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-5 - Discarding S5_STRG.173.3 because its size (68) is under the minimum of 100
+2020-06-22 17:32:03,136 - AnnotationParser-3 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-3 - Discarding S2_STRG.132.1 because its size (89) is under the minimum of 100
+2020-06-22 17:32:03,128 - AnnotationParser-5 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-5 - Discarding S5_STRG.183.1 because its size (89) is under the minimum of 100
+2020-06-22 17:32:03,137 - AnnotationParser-3 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-3 - Discarding S2_STRG.162.1 because its size (95) is under the minimum of 100
+2020-06-22 17:32:03,129 - AnnotationParser-5 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-5 - Discarding S5_STRG.216.1 because its size (95) is under the minimum of 100
+2020-06-22 17:32:03,137 - AnnotationParser-3 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-3 - Discarding S2_STRG.163.1 because its size (90) is under the minimum of 100
+2020-06-22 17:32:03,129 - AnnotationParser-5 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-5 - Discarding S5_STRG.217.1 because its size (90) is under the minimum of 100
+2020-06-22 17:32:03,137 - AnnotationParser-3 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-3 - Discarding S2_STRG.164.1 because its size (83) is under the minimum of 100
+2020-06-22 17:32:03,129 - AnnotationParser-5 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-5 - Discarding S5_STRG.218.1 because its size (83) is under the minimum of 100
+2020-06-22 17:32:03,138 - AnnotationParser-3 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-3 - Discarding S2_STRG.178.1 because its size (61) is under the minimum of 100
+2020-06-22 17:32:03,130 - AnnotationParser-5 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-5 - Discarding S5_STRG.231.1 because its size (61) is under the minimum of 100
+2020-06-22 17:32:03,139 - AnnotationParser-3 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-3 - Discarding S2_STRG.180.21 because its size (65) is under the minimum of 100
+2020-06-22 17:32:03,130 - AnnotationParser-5 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-5 - Discarding S5_STRG.233.19 because its size (65) is under the minimum of 100
+2020-06-22 17:32:03,139 - AnnotationParser-3 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-3 - Discarding S2_STRG.183.6 because its size (59) is under the minimum of 100
+2020-06-22 17:32:03,131 - AnnotationParser-5 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-5 - Discarding S5_STRG.236.8 because its size (59) is under the minimum of 100
+2020-06-22 17:32:03,145 - AnnotationParser-3 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-3 - Discarding S2_STRG.262.1 because its size (67) is under the minimum of 100
+2020-06-22 17:32:03,141 - AnnotationParser-5 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-5 - Discarding S5_STRG.286.1 because its size (65) is under the minimum of 100
+2020-06-22 17:32:03,141 - AnnotationParser-5 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-5 - Discarding S5_STRG.290.1 because its size (67) is under the minimum of 100
+2020-06-22 17:32:03,153 - AnnotationParser-3 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-3 - Discarding S2_STRG.276.1 because its size (65) is under the minimum of 100
+2020-06-22 17:32:03,153 - AnnotationParser-3 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-3 - Discarding S2_STRG.278.1 because its size (61) is under the minimum of 100
+2020-06-22 17:32:03,160 - AnnotationParser-3 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-3 - Discarding S2_STRG.438.1 because its size (77) is under the minimum of 100
+2020-06-22 17:32:03,161 - AnnotationParser-3 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-3 - Discarding S2_STRG.446.6 because its size (93) is under the minimum of 100
+2020-06-22 17:32:03,162 - AnnotationParser-3 - annotation_parser.py:357 - WARNING - load_into_storage - AnnotationParser-3 - No valid exon feature for S2_STRG.463.7, continuing
+2020-06-22 17:32:03,304 - AnnotationParser-1 - annotation_parser.py:336 - WARNING - load_into_storage - AnnotationParser-1 - Max intron: 1000000
+2020-06-22 17:32:03,309 - AnnotationParser-1 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-1 - Discarding S4_STRG.76.1 because its size (70) is under the minimum of 100
+2020-06-22 17:32:03,311 - AnnotationParser-1 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-1 - Discarding S4_STRG.124.1 because its size (68) is under the minimum of 100
+2020-06-22 17:32:03,311 - AnnotationParser-1 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-1 - Discarding S4_STRG.136.1 because its size (68) is under the minimum of 100
+2020-06-22 17:32:03,312 - AnnotationParser-1 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-1 - Discarding S4_STRG.151.1 because its size (89) is under the minimum of 100
+2020-06-22 17:32:03,313 - AnnotationParser-1 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-1 - Discarding S4_STRG.187.1 because its size (95) is under the minimum of 100
+2020-06-22 17:32:03,313 - AnnotationParser-1 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-1 - Discarding S4_STRG.188.1 because its size (90) is under the minimum of 100
+2020-06-22 17:32:03,313 - AnnotationParser-1 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-1 - Discarding S4_STRG.189.1 because its size (83) is under the minimum of 100
+2020-06-22 17:32:03,314 - AnnotationParser-1 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-1 - Discarding S4_STRG.202.1 because its size (61) is under the minimum of 100
+2020-06-22 17:32:03,314 - AnnotationParser-1 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-1 - Discarding S4_STRG.204.17 because its size (65) is under the minimum of 100
+2020-06-22 17:32:03,315 - AnnotationParser-1 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-1 - Discarding S4_STRG.207.7 because its size (59) is under the minimum of 100
+2020-06-22 17:32:03,316 - AnnotationParser-1 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-1 - Discarding S4_STRG.217.1 because its size (89) is under the minimum of 100
+2020-06-22 17:32:03,319 - AnnotationParser-1 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-1 - Discarding S4_STRG.293.1 because its size (65) is under the minimum of 100
+2020-06-22 17:32:03,319 - AnnotationParser-1 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-1 - Discarding S4_STRG.306.7 because its size (67) is under the minimum of 100
+2020-06-22 17:32:03,333 - AnnotationParser-1 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-1 - Discarding S4_STRG.483.3 because its size (93) is under the minimum of 100
+2020-06-22 17:32:03,336 - AnnotationParser-1 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-1 - Discarding S4_STRG.550.8 because its size (93) is under the minimum of 100
+2020-06-22 17:32:03,338 - AnnotationParser-1 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-1 - Discarding S4_STRG.618.10 because its size (74) is under the minimum of 100
+2020-06-22 17:32:03,339 - AnnotationParser-1 - annotation_parser.py:265 - INFO - _evaluate_tid - AnnotationParser-1 - Discarding S4_STRG.641.2 because its size (23) is under the minimum of 100
+2020-06-22 17:32:03,770 - prepare - prepare.py:536 - INFO - load_exon_lines - MainProcess - Finished loading lines from 5 files
+2020-06-22 17:32:03,771 - prepare - prepare.py:638 - INFO - prepare - MainProcess - Finished loading exon lines
+2020-06-22 17:32:15,593 - Checker-18 - checking.py:120 - INFO - create_transcript - Checker-18 - Discarded S4_STRG.602.1 because of incorrect fusions of splice junctions
+2020-06-22 17:32:17,347 - prepare - prepare.py:689 - INFO - prepare - MainProcess - Mikado prepare has finished correctly. The output ./m5.fasta FASTA file can now be used for BLASTX     and/or ORF calling before the next step in the pipeline, `mikado serialise`.

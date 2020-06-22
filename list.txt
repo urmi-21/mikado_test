@@ -1,0 +1,5 @@
+S1.gtf	S1	False
+S2.gtf	S2	False
+S3.gtf	S3	False
+S4.gtf	S4	False
+S5.gtf	S5	False
